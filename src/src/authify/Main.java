@@ -1,12 +1,3 @@
-# Authify Java API Wrapper
-
-This is the official Java API Wrapper for [Authify](https://authify.biz).
-
-### Login User
-
----
-
-```java
 package authify;
 
 import java.io.IOException;
@@ -68,13 +59,6 @@ public class Main {
                 }
                 break;
 
-```
-
-### Register User
-
----
-
-```java
             case 2:
                 watermark();
 
@@ -103,13 +87,7 @@ public class Main {
                 else
                     System.out.println(":(((");
                 break;
-```
 
-### Activate User Sub
-
----
-
-```java
             case 3:
                 watermark();
 
@@ -129,14 +107,6 @@ public class Main {
                     System.out.println(":(((");
                 break;
 
-
-```
-
-### All in one
-
----
-
-```java
             case 4:
                 watermark();
 
@@ -168,5 +138,3 @@ public class Main {
         System.in.read();
     }
 }
-
-```
