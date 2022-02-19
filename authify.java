@@ -326,7 +326,7 @@ class api {
     }
     //endregion
 
-    private String api_endpoint = "https://authify.biz/api/handler.php";
+    private String api_endpoint = "https://authify.biz/api/v1/";
 
     private String user_agent = "Mozilla Authify";
 }
